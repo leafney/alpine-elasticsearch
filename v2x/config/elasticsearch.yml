@@ -1,0 +1,13 @@
+# default
+# 
+network.host: 0.0.0.0
+path.data: /app/data
+path.logs: /app/logs
+
+# cluster
+# 
+# cluster.name: elasticsearch
+# node.name: ${HOSTNAME}
+# node.master: true
+# node.data: true
+# discovery.zen.ping.unicast.hosts: ["172.17.0.4:9300", "172.17.0.5:9301"]
